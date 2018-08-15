@@ -1,0 +1,190 @@
+<!DOCTYPE html5>
+<html>
+
+<Head>
+    <title>Contact Us</title>
+    <link href="Style2.css" rel="stylesheet" />
+</Head>
+
+<body>
+    <div id="Header">
+         TSU Graduate School 
+    </div>
+
+    <div id="Nav">
+        <ul>
+            <li><a href="Admission.html">Admission</a></li>
+            <li><a href="GradProg.html">Graduate Programs</a></li>
+            <li><a href="Student.html">Students</a></li>
+            <li><a href="Alumni.html">Alumni</a></li>
+            <li><a href="Tuition.html">Tuition&Fees</a></li>
+            <li><a href="Forms.html">Forms</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </div>
+            <a href="index.html"><img src="Images/home.png"  id="img1" /></a>
+
+    <div class="ploc">
+        <ul>
+            <li><a href="Template.html">Home</a>&nbsp;&#62;&#62;</li>
+            <li style="color: white;">&nbsp;Contact Us</li>
+
+        </ul>
+    </div>
+    <br><br><br>
+    <div id="content">
+     <div class="sidebar">
+            <ul>
+                <li><a href="#">About TSU</li></a>
+                <li><a href="#">Administration</a></li>
+                <li><a href="#">Board of Regents</a></li>
+                <li><a href="#">Dept. of Public Safety</a></li>
+                <li><a href="#">Mission and Vision</a></li>
+                <li><a href="#">TSU History</a></li>
+                <li><a href="#">Office of the President</a></li>
+            </ul>
+
+      
+        <div class="sidebar1">  
+        <h3 style="text-align: center; padding-top: 5px;">Location</h3>
+            <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyBcOkbEuWRD4XwuZG2Nd7DinAQ2sXQk33E'></script><div style='overflow:hidden;height:589px;width:100%;'><div id='gmap_canvas' style='height:450px;width:100%;'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div> <a href='http://maps-website.com/'>embed google map</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=ec546e6a3e31f1ba948427382f078a212655d180'></script><script type='text/javascript'>function init_map(){var myOptions = {zoom:18,center:new google.maps.LatLng(29.7223299,-95.35977860000003),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(29.7223299,-95.35977860000003)});infowindow = new google.maps.InfoWindow({content:'<strong>TSU Location</strong><br>3100 Cleburne St<br>77004 Houston<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+      </div>
+        
+        
+     </div>
+    
+
+        <div class="article">
+            
+            <div id="comp" style="float: left;">
+              Thank you for your interest in Texas Southern University. We look forward to hearing from you.<br> 
+              Whether you have a general inquiry, or a more specific issue, you can use this form to send your questions and comments.
+            
+            </div>      
+          
+       
+           <form id="contact" action="a.php" method="post">
+            
+            <fieldset id="info">
+             <legend>Contact Form</legend>   
+               <label for="fname">First Name </label>
+               <input name="fstname" id="fname" type="text" required /><br><br>
+               <label for="lname">Last Name</label>
+               <input name="lstname" id="lname" type="text" required/><br><br>
+                <label for="email">E-mail</label>
+                <input name="e-mail" id="email" type="text" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,63}$"/><br><br>
+                <label for="Phone">Phone</label>
+                <input name="Phonen" id="Phone" type="tel" placeholder="(nnn) nnn-nnnn" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$" required/><br><br>
+                <label for="con">How would you like to be contacted?</label>
+                <select name="con" id="cont" required>
+                 <option value="" disabled selected hidden>Please Choose...</option>
+                 <option value="1">Contact me by email</option>  
+                 <option value="2">Contact me by phone</option>
+                </select><br><br>
+                <label for="te">Questions or comments</label>
+                 <textarea name="te" placeholder="Enter your text here....." rows=10 cols="59" required>
+                   
+                 </textarea><br><br><br><br>
+                <div id="button" style="margin-left: 300px; width: 100%">
+                 <input type="submit" value="Submit">
+                 <input type="reset" value="Reset">
+                
+                </div>
+                
+
+               
+            </fieldset>
+            
+            
+            
+            </form>
+      
+            
+            
+          <div id="c">
+            You can contact us at: <img src="Images/mail.png" width="50" height="auto" style="float:left;" /><br><br>
+                
+                Texas Southern University <br>
+                3100 Cleburne Street <br>
+                Houston, TX 77004<br>
+
+               
+    
+            </div>
+        
+            <div id="t">
+            Or call us at:<img src="Images/phone-512.png" width="50" height="auto" style="float:right;" /><br><br>
+            Phone: (713) 313-7011 <br>
+            Fax: (713) 313-7851<br><br>    
+            
+            </div>
+    </div>
+    
+            
+            
+            
+            
+            
+
+
+    <br><br>
+    <div id="footer">
+        <div id="Social">
+            <div class="icons"> <a href="https://www.facebook.com/texassouthernuniversity"> <img src="Images/FB.jpg"/></a></div>
+            <div class="icons"> <a href="https://twitter.com/TexasSouthern"><img src="Images/TW.jpg" /></a></div>
+            <div class="icons"> <a href="https://www.youtube.com/user/TexSouthern"><img src="Images/You.jpg"/></a></div>
+            <div class="icons"> <a href="https://plus.google.com/100997346482398731076"> <img src="Images/GP.jpg" /></a></div>
+        </div>
+        <br><br>
+        <img src="Images/footer_logo.png" />
+        <div id="para">&copy; 2016 Texas Southern University, <br> 3100 Cleburne Street, Houston, TX 77004<br> Phone: <a href="tel:713-313-7011">713-313-7011</a>
+        </div>
+        <div class="vlinks1">
+            <ul>
+                <li><a href="#">Request Information</a></li>
+                <li><a href="#">Academic Calendar</a></li>
+                <li> <a href="#">Campus Maps</a></li>
+                <li><a href="#">Careers at TSU</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Emergency Information</a></li>
+            </ul>
+        </div>
+
+        <div class="vlinks1">
+            <ul>
+                <li><a href="#">Strategic Plan</a></li>
+                <li><a href="#">Doing Business with TSU</a></li>
+                <li><a href="#">Legislative Appropriations Request</a></li>
+                <li><a href="#">Institutional Resume</a></li>
+                <li><a href="#">Texas Veterans Portal</a></li>
+                <li><a href="#">Office of the Governor</a></li>
+        </div>
+        <div class="vlinks1">
+            <ul>
+                <li><a href="#">Library</a></li>
+                <li><a href="#">Parking</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Student Services</a></li>
+                <li><a href="#">Give to TSU</a></li>
+        </div>
+    </div>
+
+    <script>
+        function myFunction(a,b) {
+            var x = document.getElementById(a);
+            var c= document.getElementById(b);
+            if (x.style.display === "none") {
+                x.style.display = "block";
+                c.innerHTML="-";
+            } else {
+                x.style.display = "none";
+                c.innerHTML="+";
+            }
+        }
+
+    </script>
+
+</body>
+
+
+</html>

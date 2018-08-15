@@ -1,0 +1,241 @@
+<!DOCTYPE html5>
+<html>
+
+<Head>
+    <title>Graduate Programs</title>
+    <meta name="viewport" content="width=device-width">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="Style.css" rel="stylesheet" /> 
+    <link href="Style2.css" rel="stylesheet" />
+</Head>
+
+<body style="background-color: rgba(121,22,48,0.9);">
+    <div class="jumbotron">
+        <h1 style="color: white;font-size: 5vw;">Texas Southern University</h1>
+        <h2 style="color: white; letter-spacing: 2px; font-size: 3vw;">Graduate School</h2>
+    </div> 
+    <nav class="navbar">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" onclick="changeicon(this);">
+        <div class="icon-bar1"></div>
+        <div class="icon-bar2"></div>
+        <div class="icon-bar3"></div>                        
+    </button> 
+      <a class="navbar-brand" href="#">TSU</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">   
+     <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Admission</a>
+             <div class="dropdown-content">     
+                 <a href="Admission.html">Graduate Admission</a>
+                 <a href="#">International Admission</a>
+                 <a href="#">Tesing Center </a>
+            </div>  
+        </li>
+        <li><a href="GradProg.html">Programs</a></li>
+        <li><a href="Student.html">Students</a></li>
+        <li><a href="Alumni.html">Alumni</a></li>
+        <li><a href="Tuition.html">Tuition Fees</a></li>
+        <li><a href="Contact.html">Contact Us</a></li>  
+      </ul>      
+    </div>
+  </div>
+</nav>    
+    <br><br>
+    <a href="index.html"><img src="Images/home.png"  id="img1" /></a>
+  
+    <div class="ploc">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Admission</li>
+          </ol>
+        </nav>
+        
+        
+    </div>
+
+    <br><br><br>
+    <div class="container-fluid">
+    <div class="row">    
+    <div class="col-md-3 col-sm-6">
+        <div class="sidebar">
+            <ul>
+                <li><a href="#">Application Requirements</a></li>
+                <li><a href="#">Scholarships</a></li>
+                <li><a href="#">Ask an Advisor</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Faculty&Staff</a></li>
+                <li><a href="#">Apply Now</a></li>
+                <li><a href="#">News and events</a></li>
+            </ul>
+
+        </div>
+        </div>
+    <div class="col-md-9 col-sm-6">    
+        <div class="article">
+            <div class="head1">COLLEGES AND SCHOOLS</div>
+            <div style="float: left; margin-left: 20px;">
+                <ul>
+                    <li id="school"><a href="#shead">Jesse H. Jones School of Business</a></li>
+                    <li id="school"><a href="#">Barbara Jordan-Mickey Leland School of Public Affairs</a></li>
+                    <li id="school"><a href="#">College of Education</a></li>
+                    <li id="school"><a href="#">College of Science, Engineering & Technology</a></li>
+                    <li id="school"><a href="#">College of Liberal Arts & Behavioral Sciences</a></li>
+                    <li id="school"><a href="#">School of Communication</a></li>
+                    <li id="school"><a href="#">Thurgood Marshall School of Law</a></li>
+                </ul>
+            </div>
+                       <img class="images" src="Images/Schools.jpg" width=350px height=auto style="margin-top: 20px; margin-left: 150px;" />
+
+        </div>   
+     </div>       
+
+    </div>    
+            <br><br>
+          
+            <br><br>
+    <div class="row">  
+        <div class="col-md-3"></div>   
+            
+        <div class="col-md-9 col-sm-12">   
+                   <div class="article">
+
+            <div id="shead">Jesse H. Jones School of Business</div>
+            <h2 style="margin-left: 10px; text-decoration: underline;">Master Programs</h2>
+
+            <button class="button" onclick="myFunction('panel1','s1')">Master in Business Administration (MBA) <span id="s1">+</span></button>
+            <div id="panel1" class="panel" style="display: none;">
+                The mission of the Department of Business Administration is to prepare students for positions of leadership, trust, and responsibility in business, government, and community service organizations. The Department offers the foundation business courses (except Accounting, Business Law, and Finance) and provides the curriculum of study for Management, Management Information Systems, and Marketing majors.</div>
+
+            <br>
+            <button class="button" onclick="myFunction('panel2','s2')">Dual Master in Business Administration (MBA)/URIS DOCTORATE <span id="s2">+</span></button>
+            <div id="panel2" class="panel" style="display: none;">
+                The Master of Business Administration (MBA/JD) dual degree program is designed to broaden career opportunities in the fields of business and law. The program allows students to combine legal training with advanced management study. The dual degree program intends to prepare students for a wide range of careers, including investment banking, accounting, international trade, industrial relations, corporate law, and management consulting where law and business overlap. Students completing the program will receive a MBA degree from the Jesse H. Jones School of Business and a JD degree from the Thurgood Marshall School of Law simultaneously. The program allows successful students to engage not only with complex business problems in the corporate environment, but also take private and difficult legal issues into account in all business decisions. MBA/JD dual degree is a total of 111 credit hours (MBA 30 credit hours & JD 81 credit hours), which allows the reduction of 18 total credits hours of coursework in comparison to standalone MBA and JD programs pursued separately.
+            </div>
+            <br>
+            <button class="button" onclick="myFunction('panel3','s3')">Masters in Management Information Systems <span id="s3">+</span></button>
+            <div id="panel3" class="panel" style="display: none;">
+
+                The objective of the Master of Science in Management Information Systems (MMIS) program is to educate a diverse group of students by providing them knowledge of and training in the use and management of computer-based management information systems. The MS program at Texas Southern University provides tools and techniques to individuals in analyzing the management information functions of planning, organizing, staffing, and controlling in small to multinational business organizations and trains them for managerial positions in the Management Information Systems/Supply Chain Management areas of construction, manufacturing, wholesale/retail, energy, and healthcare industries. Graduates of the MS in MIS program are equipped with: Skills in using computers and computer-based applications including popular business software and their applications to business. An understanding of Supply Chain functions and selected MIS applications in that area. Skills required to becoming knowledgeable users of at least one commercially available and popular MIS application with SCM focus. Skills required for analysis and determination of information requirements, and for developing Management Information Systems using commercially available application generators and packages. Thorough understanding to develop and operate efficient and effective supply chain management systems.
+            </div>
+            <button class="button" onclick="myFunction('panel4','s4')"> Executive MBA Program <span id="s4">+</span></button>
+            <div id="panel4" class="panel" style="display: none;">
+                The Jesse H. Jones School of Business strives to provide a program that offers today's executive an integrated curriculum that explores relevant issues and challenges faced by executives at the supervisory and mid-management level. Managers must now, more than ever, be prepared to respond to both the challenging economic environment of today and the business opportunities of tomorrow. Our program encompasses advanced business concepts such as strategy, leadership and accountability, and managerial decision making. The program is AACSB-international accredited and is one of the most innovative and practical MBA degrees in the region. Our curriculum has been vetted by the local business community and benchmarked against some of the finest Online Executive MBA programs in the nation.
+
+
+            </div>
+            <br><br>
+        </div>
+        </div>
+</div>
+            <iframe style="margin: 0 auto; display: block;" width="560" height="315" src="https://www.youtube.com/embed/QGKBuMMSb7g" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <br><br>
+                 <div class="row">
+    <div  class="col-md-12 col-sm-4">
+        <div class="text-center">
+        <a  href="https://app.applyyourself.com/AYApplicantLogin/fl_ApplicantLogin.asp?id=tsu" class=".btn btn-success btn-lg"><span class="glyphicon glyphicon-circle-arrow-right"></span> Apply Now  </a>
+       </div>
+        <br><br>
+    
+    
+    </div>
+
+   
+      <br><br>
+    
+    
+    </div>
+    
+   
+
+<br><br>
+    
+<br><br>
+
+    <br><br>
+<div class="footer">    
+ <div class="container">
+   <div class="row">
+   
+    <div class="col-md-3 col-sm-6">
+        <br>
+       <a href="https://www.facebook.com/texassouthernuniversity"> <img class="s" src="Images/FB.jpg" width="15%"></a>
+       <a href="https://twitter.com/TexasSouthern"><img class="s" src="Images/TW.jpg" width="15%" /></a>
+       <a href="https://www.youtube.com/user/TexSouthern"><img class="s" src="Images/You.jpg" width="15%"/></a>
+       <a href="https://plus.google.com/100997346482398731076"> <img class="s" src="Images/GP.jpg" width="15%" /></a>
+       <br><br>
+        <img id="title" src="Images/footer_logo.png" width="40%" class="img-responsive right"/>
+        <div id="para">&copy; 2016 Texas Southern University, <br>
+           3100 Cleburne Street, Houston, TX 77004<br>
+           Phone: <a href="tel:713-313-7011">713-313-7011</a></div>
+        <br><br>
+    </div>        
+    <div class="col-md-3 col-sm-6">
+        <h2 style="color: white;">General</h2>
+        <hr style="border-width: 4px;">
+        <ul class="uformat">    
+           <li><a href="#">Request Information</a></li>
+           <li><a href="#">Academic Calendar</a></li> 
+           <li> <a href="#">Campus Maps</a></li>
+           <li><a href="#">Careers at TSU</a></li>
+           <li><a href="#">Directory</a></li>
+           <li><a href="#">Emergency Information</a></li> 
+        </ul>
+    </div> 
+       <div class="col-md-3 col-sm-6">
+        <h2 style="color: white;">Other Links</h2>
+            <hr style="border-width: 4px;">
+        <ul class="uformat">
+         <li><a href="#">Strategic Plan</a></li>
+         <li><a href="#">Doing Business with TSU</a></li> 
+         <li><a href="#">Legislative Appropriations Request</a></li>
+         <li><a href="#">Institutional Resume</a></li>
+          <li><a href="#">Texas Veterans Portal</a></li>
+          <li><a href="#">Office of the Governor</a></li>
+        </ul>    
+       
+       </div>
+     <div class="col-md-3 col-sm-6">
+            <h2 style="color: white;">Resources</h2>
+             <hr style="border-width: 4px;">
+         <ul class="uformat">
+         <li><a href="#">Library</a></li>
+         <li><a href="#">Parking</a></li> 
+         <li><a href="#">Events</a></li>
+         <li><a href="#">Student Services</a></li>
+          <li><a href="#">Give to TSU</a></li>
+         </ul>
+     </div>     
+   </div>   
+    
+
+    
+ </div>    
+    <br>
+  </div>
+    <script>
+        function myFunction(a,b) {
+            var x = document.getElementById(a);
+            var c= document.getElementById(b);
+            if (x.style.display === "none") {
+                x.style.display = "block";
+                c.innerHTML="-";
+            } else {
+                x.style.display = "none";
+                c.innerHTML="+";
+            }
+        }
+
+    </script>
+
+</body>
+
+
+</html>
