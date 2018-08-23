@@ -3,67 +3,109 @@
 
 <Head>
     <title>Alumni</title>
+    <meta name="viewport" content="width=device-width">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="Style.css" rel="stylesheet" /> 
     <link href="Style2.css" rel="stylesheet" />
 </Head>
 
-<body>
-    <div id="Header">
-         TSU Graduate School 
-    </div>
+<body style="background-color: rgba(121,22,48,0.9);">
+ 
+   <div class="jumbotron">
+        <h1 style="color: white;font-size: 5vw;">Texas Southern University</h1>
+        <h2 style="color: white; letter-spacing: 2px; font-size: 3vw;">Graduate School</h2>
+    </div> 
+    
 
-    <div id="Nav">
-        <ul>
-            <li><a href="Admission.html">Admission</a></li>
-            <li><a href="GradProg.html">Graduate Programs</a></li>
-            <li><a href="Student.html">Students</a></li>
-            <li><a href="#">Alumni</a></li>
-            <li><a href="Tuition.html">Tuition&Fees</a></li>
-            <li><a href="Forms.html">Forms</a></li>
-            <li><a href="Contact.html">Contact Us</a></li>
-        </ul>
+<nav class="navbar">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" onclick="changeicon(this);">
+        <div class="icon-bar1"></div>
+        <div class="icon-bar2"></div>
+        <div class="icon-bar3"></div>                        
+    </button> 
+      <a class="navbar-brand" href="#">TSU</a>
     </div>
+    <div class="collapse navbar-collapse" id="myNavbar">   
+     <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Admission</a>
+             <div class="dropdown-content">     
+                 <a href="Admission.html">Graduate Admission</a>
+                 <a href="#">International Admission</a>
+                 <a href="#">Tesing Center </a>
+            </div>  
+        </li>
+        <li><a href="GradProg.html">Programs</a></li>
+        <li><a href="Student.html">Students</a></li>
+        <li><a href="Alumni.html">Alumni</a></li>
+        <li><a href="Tuition.html">Tuition Fees</a></li>
+        <li><a href="Contact.html">Contact Us</a></li>  
+      </ul>      
+    </div>
+  </div>
+</nav>    
+    <br><br>
     <a href="index.html"><img src="Images/home.png"  id="img1" /></a>
 
+    
+    
     <div class="ploc">
-        <ul>
-            <li><a href="Template.html">Home</a>&nbsp;&#62;&#62;</li>
-            <li style="color: white;">&nbsp;Alumni</li>
-
-        </ul>
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Admission</li>
+          </ol>
+        </nav>
+        
+        
     </div>
+    <br><br>
     <br><br><br>
-    <div id="content">
-        <div class="sidebar">
-            <ul>
-                <li><a href="#">Office of Alumni Relations</li></a>
-                    <li><a href="#">National Alumni Assoc.</a></li>
-                    <li><a href="#">Alumni News</a></li>
-                    <li><a href="#">Alumni Convension</a></li>
-                    <li><a href="#">Alumni Newsletter</a></li>
-                    <li><a href="#">Alumni Photos</a></li>
-                    <li><a href="#">Chapter Listing</a></li>
+<div class="container-fluid">
+ <div class="row">
+   <div class="col-md-3 col-sm-6">
+      <div class="sidebar">
+           <ul>
+            <li><a href="#">Office of Alumni Relations</a></li>
+            <li><a href="#">National Alumni Assoc.</a></li>
+            <li><a href="#">Alumni News</a></li>
+            <li><a href="#">Alumni Convension</a></li>
+            <li><a href="#">Alumni Newsletter</a></li>
+            <li><a href="#">Alumni Photos</a></li>
+            <li><a href="#">Chapter Listing</a></li>
             </ul>
-
+    
         </div>
-
-        <div class="article">
-            <div class="head1">Alumni Director message</div>
+     </div>   
+       <div class="col-md-9 col-sm-6">
+          <div class="article">
+           <h2 class="bg-danger text-center">Alumni Director message</h2>
             <br>
             <div class="r1">
                 <div id="r11t">
-                <img class="im" src="images/alumni.jpg" width="200" , height="250"  style="float: left; margin-right: 10px;"/>
-                   <p style="margin-right:15px; text-align: justify;"> <span style="font-weight: bold;">Greetings Fellow Alumni and Friends:</span> <br> As an alumna of Texas Southern University I could not be prouder of the University's accomplishments. Each year as we welcome new students to Texas Southern University and attend Commencement we are reminded of the legacy left behind by alumni.<br> The Office of Alumni Relations is a liaison between alumni and the university and provides opportunities for alumni to stay connected to their alma mater.<br> We work with numerous departments to communicate messages to alumni that support<span class="link"><a style="color: blue;" href=”#”> recruitment and retention </a></span>of students, as well as<span class="link"><a href="#"> fundraising</a></span> goals.We encourage alumni to keep their<span class="link"><a href="#">contact information</a></span> updated so we can share news, events and networking opportunities. We look forward to helping to facilitate class reunions and homecoming activities.</p>
+                <img class="img-rounded" src="images/alumni.jpg" width="18%" , height="25%"  style="float: left; margin-right: 10px;"/>
+                   <p style="margin-right:15px; text-align: justify;"> <span style="font-weight: bold;">Greetings Fellow Alumni and Friends:</span> <br> As an alumna of Texas Southern University I could not be prouder of the University's accomplishments. Each year as we welcome new students to Texas Southern University and attend Commencement we are reminded of the legacy left behind by alumni.<br> The Office of Alumni Relations is a liaison between alumni and the university and provides opportunities for alumni to stay connected to their alma mater.<br> We work with numerous departments to communicate messages to alumni that support<span class="link"><a style="color: maroon;" href=”#”> recruitment and retention </a></span>of students, as well as<span class="link"><a href="#"> fundraising</a></span> goals.We encourage alumni to keep their<span class="link"><a href="#">contact information</a></span> updated so we can share news, events and networking opportunities. We look forward to helping to facilitate class reunions and homecoming activities.</p>
                 </div>
-
-            </div>
-
-            <br><br>
-
-            <div class="head1">Office of Alumni Relations</div>
+              <br>
+              </div>
+       </div>
+    </div>
+    </div>
+    <div class="row">
+     <div class="col-md-3 col-sm-6"></div>
+     <div class="col-md-9 col-sm-6">
+         <h2 class="bg-danger text-center">Office of Alumni Relations</h2>
             <br>
-            <div class="r1">
-                <img class="im" src="Images/Alog.jpg" width="90%" , height="200" />
-                <div id="r11111t">
+            
+                <img class="img-rounded center-block" src="Images/Alog.jpg" width="90%" , height="200" />
+               <br>
+                <div class="box .bg-info">
                     The designation of Texas Southern University as a “special purpose” institution for urban programming provides a foundation for its programmatic goals. In support of Texas Southern University’s mission statement the Office of Alumni Relations is committed to providing a foundation for its Alumni.<br>
                     <h3> Office of Alumni Relations Mission Statement</h3>
                     The Office of Alumni Relation’s mission is to build a loyal alumni base that supports the University, its administration and programs through communication. The Office will promote the University’s goals and promote a spirit of unity and allegiance among graduates, former students, and friends.<br>
@@ -99,6 +141,89 @@
                         Connie Cochran Assistant Vice President of Alumni Relations & Special Events<br> 
                         cochrancl@tsu.edu <br>
                         713-313-1363
+        
+                  </div>
+    
+    
+     </div>
+         
+    </div>
+       <br><br><br><br>
+    
+<div class="footer">    
+ <div class="container-fluid">
+   <div class="row">
+   
+    <div class="col-md-3 col-sm-6">
+        <br>
+       <a href="https://www.facebook.com/texassouthernuniversity"> <img class="s" src="Images/FB.jpg" width="15%"></a>
+       <a href="https://twitter.com/TexasSouthern"><img class="s" src="Images/TW.jpg" width="15%" /></a>
+       <a href="https://www.youtube.com/user/TexSouthern"><img class="s" src="Images/You.jpg" width="15%"/></a>
+       <a href="https://plus.google.com/100997346482398731076"> <img class="s" src="Images/GP.jpg" width="15%" /></a>
+       <br><br>
+        <img id="title" src="Images/footer_logo.png" width="40%" class="img-responsive right"/>
+        <div id="para">&copy; 2016 Texas Southern University, <br>
+           3100 Cleburne Street, Houston, TX 77004<br>
+           Phone: <a href="tel:713-313-7011">713-313-7011</a></div>
+        <br><br>
+    </div>        
+    <div class="col-md-3 col-sm-6">
+        <h2 style="color: white;">General</h2>
+        <hr style="border-width: 4px;">
+        <ul class="uformat">    
+           <li><a href="#">Request Information</a></li>
+           <li><a href="#">Academic Calendar</a></li> 
+           <li> <a href="#">Campus Maps</a></li>
+           <li><a href="#">Careers at TSU</a></li>
+           <li><a href="#">Directory</a></li>
+           <li><a href="#">Emergency Information</a></li> 
+        </ul>
+    </div> 
+       <div class="col-md-3 col-sm-6">
+        <h2 style="color: white;">Other Links</h2>
+            <hr style="border-width: 4px;">
+        <ul class="uformat">
+         <li><a href="#">Strategic Plan</a></li>
+         <li><a href="#">Doing Business with TSU</a></li> 
+         <li><a href="#">Legislative Appropriations Request</a></li>
+         <li><a href="#">Institutional Resume</a></li>
+          <li><a href="#">Texas Veterans Portal</a></li>
+          <li><a href="#">Office of the Governor</a></li>
+        </ul>    
+       
+       </div>
+     <div class="col-md-3 col-sm-6">
+            <h2 style="color: white;">Resources</h2>
+             <hr style="border-width: 4px;">
+         <ul class="uformat">
+         <li><a href="#">Library</a></li>
+         <li><a href="#">Parking</a></li> 
+         <li><a href="#">Events</a></li>
+         <li><a href="#">Student Services</a></li>
+          <li><a href="#">Give to TSU</a></li>
+         </ul>
+     </div>     
+   </div>   
+    
+
+    
+ </div>    
+    <br>   
+</div>    
+    <!-- <div id="content">
+        <div class="sidebar">
+            
+
+        
+
+        
+            
+
+            </div>
+
+            <br><br>
+
+           
                 </div>
 
             </div>
@@ -150,7 +275,7 @@
                     <li><a href="#">Give to TSU</a></li>
             </div>
         </div>
-
+-->
         <script>
             function myFunction(a, b) {
                 var x = document.getElementById(a);

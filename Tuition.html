@@ -3,37 +3,74 @@
 
 <Head>
     <title>Students</title>
+    <meta name="viewport" content="width=device-width">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="Style.css" rel="stylesheet" /> 
     <link href="Style2.css" rel="stylesheet" />
 </Head>
 
-<body>
-    <div id="Header">
-         TSU Graduate School 
-    </div>
+<body style="background-color: rgba(121,22,48,0.9);">
+ 
+   <div class="jumbotron">
+        <h1 style="color: white;font-size: 5vw;">Texas Southern University</h1>
+        <h2 style="color: white; letter-spacing: 2px; font-size: 3vw;">Graduate School</h2>
+    </div> 
+    
 
-    <div id="Nav">
-        <ul>
-            <li><a href="Admission.html">Admission</a></li>
-            <li><a href="GradProg.html">Graduate Programs</a></li>
-            <li><a href="Student.html">Students</a></li>
-            <li><a href="Alumni.html">Alumni</a></li>
-            <li><a href="#">Tuition&Fees</a></li>
-            <li><a href="Forms.html">Forms</a></li>
-            <li><a href="Contact.html">Contact Us</a></li>
-        </ul>
+<nav class="navbar">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" onclick="changeicon(this);">
+        <div class="icon-bar1"></div>
+        <div class="icon-bar2"></div>
+        <div class="icon-bar3"></div>                        
+    </button> 
+      <a class="navbar-brand" href="#">TSU</a>
     </div>
+    <div class="collapse navbar-collapse" id="myNavbar">   
+     <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Admission</a>
+             <div class="dropdown-content">     
+                 <a href="Admission.html">Graduate Admission</a>
+                 <a href="#">International Admission</a>
+                 <a href="#">Tesing Center </a>
+            </div>  
+        </li>
+        <li><a href="GradProg.html">Programs</a></li>
+        <li><a href="Student.html">Students</a></li>
+        <li><a href="Alumni.html">Alumni</a></li>
+        <li><a href="Tuition.html">Tuition Fees</a></li>
+        <li><a href="Contact.html">Contact Us</a></li>  
+      </ul>      
+    </div>
+  </div>
+</nav>    
+    <br><br>
     <a href="index.html"><img src="Images/home.png"  id="img1" /></a>
 
+    
+    
     <div class="ploc">
-        <ul>
-            <li><a href="Template.html">Home</a>&nbsp;&#62;&#62;</li>
-            <li style="color: White;">&nbsp;Tuition and Fees</li>
-
-        </ul>
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Admission</li>
+          </ol>
+        </nav>
+        
+        
     </div>
     <br><br><br>
-    <div id="content">
-        <div class="sidebar">
+    
+    <div class="container-fluid">
+     <div class="row">
+       <div class="col-md-3 col-sm-6">
+           <div class="sidebar">
             <ul>
                 <li><a href="#">Bookstore Reserve</a></li>
                 <li><a href="#">Payments Plans</a></li>
@@ -45,22 +82,29 @@
             </ul>
 
         </div>
-
-
+       </div> 
+      <div class="col-md-9 col-sm-6">
+         
         <div class="article">
             <div class="head1">Tuition and Fees</div>
-            <div id="r1t1">
+            <br>
+            <div class="r1t1">
                 Tuition and fees for each academic year are set by the Texas Southern Board of Regents. Beginning in Fall 2014, all incoming freshmen and first-time transfer students will have the option of selecting a Fixed Rate Tuition plan, which guarantees your tuition rate will be fixed for 4 academic years (12 consecutive semesters). 
                 <a href="#" style="color: red;" target="popup" onclick="window.open('http://www.tsu.edu/about/administration/finance/business-affairs/student-accounting/pdf/fixed-tuition-plan-faq.pdf','popup','width=600,height=600,scrollbars=no,resizable=no, left=300, top=100'); return false;">Please visit the Fixed Rate Tuition Plan FAQ for more information.</a> The deadline for payment of tuition and fees is by the 1st day of the semester, unless the student has a financial aid deferment or is enrolled in an Installment Plan. Students who do not have a financial aid deferment or are not enrolled in an installment plan may incur an additional $104 late payment charge. Students who do not make satisfactory payment arrangements will have their classes cancelled on the 20th class day for Fall and Spring semesters and on the 15th class day for Summer semesters.
             </div>
-            <hr>
-            <hr>
-            <br><br>
-
-            <div id="head2" style="text-shadow: 3px 1px gray;">Summer 2018</div>
-            <table align="center">
+            
+         <br>
+      </div>     
+        
+     </div>
+        </div>
+    <div class="row">
+     <div class="col-md-3 col-sm-6"> </div>     
+    <div class="col-md-9 col-sm-6">
+          <h2 class="bg-danger text-center">Summer 2018</h2>
+            <table align="center" class="table table-bordered table-hover">
                 <tr>
-                    <td style="text-align: left;">
+                    <td style="text-align: left;background-color: lightgray; ">
                         <a href="#" style="color: #6D2110;" target="popup" onclick="window.open('http://www.tsu.edu/about/administration/finance/business-affairs/student-accounting/pdf/summer2018-undergraduate-tuition-and-fee-schedule.pdf','popup','width=600,height=600,scrollbars=no,resizable=no, left=300, top=100'); return false;">Graduate and Professional Programs</a>
                     </td>
                 </tr>    
@@ -71,11 +115,16 @@
                 </tr>    
     
             </table>
+        </div>
             <br><br>
-           <div id="head2" style="text-shadow: 3px 1px gray;">Fall 2018 – Spring 2019</div>
-            <table align="center">
+         </div>
+         <div class="row">
+        <div class="col-md-3 col-sm-6"></div>
+        <div class="col-md-9" col-sm-6>
+             <h2 class="bg-danger text-center">Fall 2018 – Spring 2019</h2>
+            <table align="center" class="table table-bordered table-hover">
                 <tr>
-                    <td style="text-align: left;">
+                    <td style="text-align: left;background-color: lightgray;">
                         <a href="#" style="color: #6D2110;" target="popup" onclick="window.open('http://www.tsu.edu/about/administration/finance/business-affairs/student-accounting/pdf/fall2018-spring2019-graduate-and-professional-tuition-and-fee-schedule.pdf','popup','width=600,height=600,scrollbars=no,resizable=no, left=300, top=100'); return false;">Graduate and Professional Program Tuition and Fee Schedule</a>
                     </td>
                 </tr>    
@@ -86,53 +135,78 @@
                 </tr>    
     
             </table>
+        </div>     
+        
 
-           <br><br>
-        </div>
-
+        
+    </div>     
+ 
+    
         <br><br><br><br>
+<div class="footer">    
+ <div class="container-fluid">
+   <div class="row">
+   
+    <div class="col-md-3 col-sm-6">
+        <br>
+       <a href="https://www.facebook.com/texassouthernuniversity"> <img class="s" src="Images/FB.jpg" width="15%"></a>
+       <a href="https://twitter.com/TexasSouthern"><img class="s" src="Images/TW.jpg" width="15%" /></a>
+       <a href="https://www.youtube.com/user/TexSouthern"><img class="s" src="Images/You.jpg" width="15%"/></a>
+       <a href="https://plus.google.com/100997346482398731076"> <img class="s" src="Images/GP.jpg" width="15%" /></a>
+       <br><br>
+        <img id="title" src="Images/footer_logo.png" width="40%" class="img-responsive right"/>
+        <div id="para">&copy; 2016 Texas Southern University, <br>
+           3100 Cleburne Street, Houston, TX 77004<br>
+           Phone: <a href="tel:713-313-7011">713-313-7011</a></div>
+        <br><br>
+    </div>        
+    <div class="col-md-3 col-sm-6">
+        <h2 style="color: white;">General</h2>
+        <hr style="border-width: 4px;">
+        <ul class="uformat">    
+           <li><a href="#">Request Information</a></li>
+           <li><a href="#">Academic Calendar</a></li> 
+           <li> <a href="#">Campus Maps</a></li>
+           <li><a href="#">Careers at TSU</a></li>
+           <li><a href="#">Directory</a></li>
+           <li><a href="#">Emergency Information</a></li> 
+        </ul>
+    </div> 
+       <div class="col-md-3 col-sm-6">
+        <h2 style="color: white;">Other Links</h2>
+            <hr style="border-width: 4px;">
+        <ul class="uformat">
+         <li><a href="#">Strategic Plan</a></li>
+         <li><a href="#">Doing Business with TSU</a></li> 
+         <li><a href="#">Legislative Appropriations Request</a></li>
+         <li><a href="#">Institutional Resume</a></li>
+          <li><a href="#">Texas Veterans Portal</a></li>
+          <li><a href="#">Office of the Governor</a></li>
+        </ul>    
+       
+       </div>
+     <div class="col-md-3 col-sm-6">
+            <h2 style="color: white;">Resources</h2>
+             <hr style="border-width: 4px;">
+         <ul class="uformat">
+         <li><a href="#">Library</a></li>
+         <li><a href="#">Parking</a></li> 
+         <li><a href="#">Events</a></li>
+         <li><a href="#">Student Services</a></li>
+          <li><a href="#">Give to TSU</a></li>
+         </ul>
+     </div>     
+   </div>   
+    
 
-        <div id="footer">
-            <div id="Social">
-                <div class="icons"> <a href="https://www.facebook.com/texassouthernuniversity"> <img src="Images/FB.jpg"/></a></div>
-                <div class="icons"> <a href="https://twitter.com/TexasSouthern"><img src="Images/TW.jpg" /></a></div>
-                <div class="icons"> <a href="https://www.youtube.com/user/TexSouthern"><img src="Images/You.jpg"/></a></div>
-                <div class="icons"> <a href="https://plus.google.com/100997346482398731076"> <img src="Images/GP.jpg" /></a></div>
-            </div>
-            <br><br>
-            <img src="Images/footer_logo.png" />
-            <div id="para">&copy; 2016 Texas Southern University, <br> 3100 Cleburne Street, Houston, TX 77004<br> Phone: <a href="tel:713-313-7011">713-313-7011</a>
-            </div>
-            <div class="vlinks1">
-                <ul>
-                    <li><a href="#">Request Information</a></li>
-                    <li><a href="#">Academic Calendar</a></li>
-                    <li> <a href="#">Campus Maps</a></li>
-                    <li><a href="#">Careers at TSU</a></li>
-                    <li><a href="#">Directory</a></li>
-                    <li><a href="#">Emergency Information</a></li>
-                </ul>
-            </div>
-
-            <div class="vlinks1">
-                <ul>
-                    <li><a href="#">Strategic Plan</a></li>
-                    <li><a href="#">Doing Business with TSU</a></li>
-                    <li><a href="#">Legislative Appropriations Request</a></li>
-                    <li><a href="#">Institutional Resume</a></li>
-                    <li><a href="#">Texas Veterans Portal</a></li>
-                    <li><a href="#">Office of the Governor</a></li>
-            </div>
-            <div class="vlinks1">
-                <ul>
-                    <li><a href="#">Library</a></li>
-                    <li><a href="#">Parking</a></li>
-                    <li><a href="#">Events</a></li>
-                    <li><a href="#">Student Services</a></li>
-                    <li><a href="#">Give to TSU</a></li>
-            </div>
-        </div>
-
+    
+ </div>    
+    <br>
+        
+        
+        
+           </div>
+-->
         <script>
             function myFunction(a, b) {
                 var x = document.getElementById(a);

@@ -45,15 +45,15 @@
     font-size: 1.3em;
 }
 .sidebar1{
-    background-color: rgba( 139, 0, 0,0.6);
+    background-color: rgba( 139, 0, 0,0.4);
     width: 80%;
-    height: 450px;
+    height: 50px;
     box-shadow: 4px 3px gray;
     font-family: sans-serif;  
 }
 .sidebar2>img {
     margin-top: 20px;
-    width: 100%;
+    width: 80%;
     height: 500px;
     box-shadow: 4px 3px gray;
     
@@ -157,7 +157,7 @@ border-bottom: 1px solid black;
     display: block;
     width: 99%;
     height: 40px;
-    background-color: rgba(128,0,0,0.5);
+    background-color: rgba(128,128,128,0.5);
     font-size: 2em;
     color: white;
     text-align: center;
@@ -251,4 +251,77 @@ display: none;
     border: 2px solid maroon;
     margin-top: 10px;
     margin-left: 10px;
+}
+.box
+{
+    color: white;
+    box-shadow: 3px 3px; 
+    font-size: 16px;
+}
+a:visited {
+    color: white;
+    font-size: 18px;
+}
+a:hover{
+    color: silver;
+}
+span a:visited a:active{
+    color: maroon;
+}
+
+#comp{
+ font-family: "Comic sans MS";
+ font-size: 1.2em;
+ padding: 30px;    
+}
+#info{
+    
+    font-family: sans-serif;
+    font-size: 1em;
+    width: 85%;
+    margin: 0 auto;
+}
+#contact{
+    display: block;
+    width: 100%;
+    height: auto;
+    background: white;
+}
+
+#fname, #lname, #email{
+width: 50%;
+height: 30px;
+}
+
+label {
+display: block;
+float: left;
+clear: left;
+font-size: 0.9em;
+margin-bottom: 10px;
+margin-right: 10px;
+width: 180px;
+text-align: right;
+}
+
+#button{
+font-size: 1.2em;
+}
+input[type='submit'], input[type='reset']{
+font-size: 0.7em;
+padding: 5px;
+margin: 15px;
+}
+input[type='submit']:hover, input[type='reset']:hover{
+background-color: maroon;
+color: white;
+}
+input[type='text']{
+font-size: 1em;
+}
+input[type=text]:focus:valid, textarea:focus:valid{
+background-color: rgb(220,255,220);
+}
+input[type=text]:focus:invalid, textarea:focus:invalid{
+background-color: rgb(255,233,233);
 }
